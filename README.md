@@ -3,18 +3,19 @@
 Approximate the function given its integral and boundaries. 
 
 	array = np.linspace(0,9,10)
-	print("array: ", array)
+	print("array: ", array, "\n")
 
 	A = Approx(array, 2)
 	s = 0
 	for a in A: 
 	    print("a:", a)
 	    s += a[1]
-	print("s: ",s)
+	print("\ns: ",s)
 
 Will return: 
 
 	array: [0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]
+
 	a: (0, 0.0)
 	a: (1, 0.1)
 	a: (2, 0.2)
