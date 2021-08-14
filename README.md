@@ -1,6 +1,6 @@
 # Approximate an integral 
 
-Approximate the function given its integral and boundaries. 
+Approximate the 2-dimensional function given its integral and boundaries. 
 
 	array = np.linspace(0,9,10)
 	print("array: ", array, "\n")
